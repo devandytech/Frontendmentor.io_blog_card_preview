@@ -1,4 +1,4 @@
-* {
+*  {
     margin: 0;
     padding: 0;
 }
@@ -8,8 +8,8 @@ body {
     background: hsl(47, 88%, 63%);
 }
 .container {
-    width: 330px;
-    height: 600px;
+    width: 90%;
+    height: 595px;
     margin: 50% auto 50% auto;
     background: hsl(0, 0%, 100%);
     border: 2px solid hsl(0, 0%, 7%);
@@ -20,10 +20,10 @@ body {
 }
 img {
     width: 290px;
-    margin: 20px auto 20px auto;
+    margin: 25px auto 20px auto;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 .wrapper {
     width: 300px;
@@ -31,9 +31,9 @@ img {
     text-align: left;
 }
 h3 {
-    width: 85px;
+    width: 90px;
     text-align: center;
-    margin: 30px 0 20px 19px;
+    margin: 30px 0 20px 20px;
     padding: 12px;
     background: hsl(47, 88%, 63%);
     border-radius: 8px;
@@ -69,4 +69,77 @@ strong {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+@media only screen and (min-width: 600px) and (max-width: 1440px){
+    * {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    margin: 0;
+    background: hsl(47, 88%, 63%);
+}
+.container {
+    width: 375px;
+    height: 595px;
+    margin: 50% auto 50% auto;
+    background: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    -moz-box-shadow: 12px 12px 12px #777777; 
+    -webkit-box-shadow: 12px 12px 12px #777777; 
+    box-shadow: 10px 10px 10px  #777777;
+}
+img {
+    width: 320px;
+    margin: 30px auto;
+    border-radius: 12px;
+}
+.wrapper {
+    margin-left: 0px;
+    padding-right: 10px;
+    text-align: left;
+}
+h3 {
+    width: 90px;
+    text-align: center;
+    margin: 30px 0 20px 25px;
+    padding: 12px;
+    background: hsl(47, 88%, 63%);
+    border-radius: 8px;
+}
+h2 {
+    font-size: 19px;
+    margin: 0 0 30px 25px;
+}
+.upper {
+    text-transform: uppercase;
+}
+p {
+    margin: 0 0 25px 25px;
+}
+span p {
+    width: 330px;
+    font-size: 1em;
+    margin: 0 0 0 25px;
+    line-height: 1.5em;
+    color: hsl(0, 0%, 50%);
+}
+.wrapper img {
+    width: 50px;
+    float: left;
+    margin: 18px 0px 19px 19px;
+}
+strong {
+    float: left;
+    margin: 35px 0 0 15px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 }
